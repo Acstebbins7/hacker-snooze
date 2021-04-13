@@ -123,11 +123,13 @@ nav {
 }
 
 .right-side {
-  background-image: url("https://media.giphy.com/media/26n6ziTEeDDbowBkQ/giphy.gif");
+  background-image: url("https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif");
   background-repeat: no-repeat;
+  background-size: 600px;
   position: fixed;
-  margin-top: 400px;
-  margin-left: 1250px;
+  margin-top: 180px;
+  margin-bottom: 600px;
+  margin-left: 1150px;
   height: 600px;
   width: 600px;
 }

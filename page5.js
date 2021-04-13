@@ -4,7 +4,7 @@ const apiTop500 = "https://hacker-news.firebaseio.com/v0/topstories.json?print=p
 fetch(apiTop500)
     .then((res) => res.json())
     .then((data) => {
-        data = data.slice(0, 20);
+        data = data.slice(80, 99);
         console.log(data)
         for(let id of data) {
             fetchStory(id);
