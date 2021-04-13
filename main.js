@@ -11,8 +11,6 @@ fetch(apiTop500)
         }
     })
 
-
-
 function fetchStory(storyID) {
     const storyAPI = `https://hacker-news.firebaseio.com/v0/item/${storyID}.json?print=pretty`
     fetch (storyAPI)
@@ -27,7 +25,7 @@ function postStory(story){
     let html = `<div class="storyContainer">
                     <h2 class="title"><a href=${story.url}>${story.title}</a></h2>
                     <div class="subHeading">
-                        ${story.score} points | ${story.by} | ${story.kids.length} comments
+                        <a href="${story.score}"/> points | ${story.by} | ${story.kids.length} comments </>
                     </div>
                 </div>`
 
