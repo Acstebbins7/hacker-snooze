@@ -1,6 +1,8 @@
 * {
   max-width: 2000px;
   font-family: cursive;
+  resize: both;
+  /* text-transform: uppercase; */
 }
 
 body {

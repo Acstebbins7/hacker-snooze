@@ -23,9 +23,9 @@ function fetchStory(storyID) {
 function postStory(story){
     
     let html = `<div class="storyContainer">
-                    <h2 class="title"><a href=${story.url}>${story.title}</a></h2>
+                    <h2 class="title"><a href=${story.url} target="_blank">${story.title}</a></h2>
                     <div class="subHeading">
-                        <a href="${story.score}"/> points | ${story.by} | ${story.kids.length} comments </>
+                        ${story.score} points | ${story.by} | ${story.kids.length} comments
                     </div>
                 </div>`
 
